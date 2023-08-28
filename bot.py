@@ -23,6 +23,9 @@ loaded_model = tf.keras.models.load_model('saved_model')
 async def on_ready():
     print(f'Logged in as {bot.user.name}')
 
+
+
+# COMMANDS
 @bot.command()
 async def hello(ctx):
     await ctx.send("Hello World!")
