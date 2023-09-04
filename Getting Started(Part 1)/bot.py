@@ -23,9 +23,5 @@ async def on_ready():
 async def hello(ctx):
     await ctx.send("Hello!")
 
-@bot.command()
-async def predict(ctx):
-    aw
-
 # Run the bot
 bot.run(token)
